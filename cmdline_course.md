@@ -5,7 +5,7 @@ layout: default
 Intended for those interested in learning about language technology,
 this course is a beginner-friendly introduction to the basic tools for language technology in a Unix-like environment.
 
-The aim of this course is to familiarise you with the basics of operating in a Unix-like environment,
+The aim of this course is to familiarise you with concepts like the basics of operating in a Unix-like environment,
 basic commands for processing text data, using regular expressions and script writing.
 Participants will get a brief introduction to Python for the purpose of learning how to launch a virtual environment 
 and how to use pip to install packages.
@@ -14,7 +14,7 @@ The course consists mostly of independent work, but there were also in-person su
 
 # Module 1:
 
-The first thing we did was install a command-line environment. Then we started learning some basic commands. 
+The first thing we did was install a command-line environment. Then we started working on some basic commands. 
 Additionally, we learned how to handle and navigate files and directories. 
 For example, we learned how to copy, move and remove directories and files. 
 We also learned input/output redirection as well as how to check and change permissions for a file or a directory.
@@ -24,7 +24,7 @@ The command for finding the permissions for a specific was simple,
 but it took me a long time to understand what the symbolic notations actually meant. 
 Another thing I found challenging was remembering how different options affected commands.
 
-Here are some useful commands we learned:
+Here are some useful commands from this module:
 
 | Command | Explanation | 
 | ------------------ | ------------- |
@@ -49,8 +49,8 @@ This is useful because you avoid having to move to each directory one by one to 
 
 # Module 2:
 
-This week we learned about encoding systems like ASCII, Latin-1, and UTF-8.
-After getting ourselves familiar with them, we learned to convert text files from one encoding system to another 
+In this module, we learned about encoding systems like ASCII, Latin-1, and UTF-8.
+After getting familiar with them, we learned to convert text files from one encoding system to another 
 using dos2unix and unix2dos.
 After that, we delved into basic text file operations. 
 
@@ -125,3 +125,57 @@ It first displays the prompt “Enter filename” asking for the user's input.
 Once the user has typed a name of a file, the program then checks if a file with that name exists. 
 It then either notifies the user that a file with that name exists and displays the file's content, 
 or it creates a file with that name if it can’t find the file.
+
+
+# Module 4:
+
+The first topic for this module was processes. 
+The purpose of the topic was to understand what initiating a process in the operating system 
+actually entails and how a process can be identified and killed using PID. 
+
+Through practical exercises, we also got a brief introduction to using remote servers on CSC.
+The provided videos introduced commands for connecting to a remote server (ssh) and 
+for copying files to and from remote servers (scp).
+I became more familiar with config files as we learned to create server-specific settings 
+for making an SSH connection.
+I think my understanding in this area is still a bit lacking, 
+as I couldn’t quite grasp how SLURM jobs work. 
+I hope I’ll have a chance to practice using CSC more in the future. 
+
+One of the key concepts explored in the last module was learning how to use Git alongside GitHub.
+We learned to create, clone and use repositories on both the local computer and on GitHub. 
+Through practical exercises, I began to recognise the importance of version control.
+As a beginner, I’m bound to make more mistakes, 
+which is why it’s crucial to know how to undo the changes.
+
+Here are some git commands to correct mistakes:
+
+1. If you forgot to stage a file, you can add it to the previous commit with:  
+```
+git commit --amend
+```
+2. Want to correct a typo in your commit message? Use:  
+```
+git commit --amend -m "Corrected message"
+```
+3. Want to revert changes you’ve already pushed to GitHub? Use:  
+```
+git revert SHA_of_commit
+```
+4. Want to restore a specific file to the state of the last commit? Use:  
+```
+git checkout -- altered_file
+```
+5. To reset local changes, use:  
+```
+git reset last_good_SHA
+```
+Some modes of git reset:  
+	* --soft: keeps changes staged
+	* --mixed (default): unstages changes
+	* --hard: discards changes completely
+6. Undo _git reset --hard_  
+```
+git reflog
+git reset SHA_for_return
+```
