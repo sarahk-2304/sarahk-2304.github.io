@@ -12,6 +12,7 @@ and how to use pip to install packages.
 Additionally, the course provides valuable insight into the usefulness of remote servers and version control tools like Git.  
 The course consists mostly of independent work, but there were also in-person support sessions every other week.
 
+
 # Module 1:
 
 The first thing we did was install a command-line environment. Then we started working on some basic commands. 
@@ -44,8 +45,9 @@ ls -F example_dir
 
 Instead of listing the current directory’s contents, 
 ls combined with the option -F lists the contents of a directory located inside the current working directory.
-It also uses symbols to indicate file types, such as / for a directory.
-This is useful because you avoid having to move to each directory one by one to view their contents.
+It uses symbols to indicate file types, such as / for a directory.
+This command allows you to identify directories without navigating into each one. 
+
 
 # Module 2:
 
@@ -72,13 +74,14 @@ We also learned to use regex to find and replace patterns in a text file.
 
 **Example code for this module:**  
 ``` 
-cat example.txt | grep -E '\bcat[a-zA-Z]*\b' | wc -l | less 
+grep -E '\bcat[a-zA-Z]*\b' example.txt | wc -l  
 ```
 
-This code displays the text file's contents, looks for all words starting with “cat”, 
-counts the matching lines, and displays the resulting line count. 
-Instead of having to type a very specific pattern for the grep command, 
-you can find multiple variations of a word by using regex with grep -E.
+This command looks for all matching lines starting with “cat” and
+counts those lines. 
+Instead of having to specify every variation of a word separately,
+you can find multiple variations by using regex with grep -E.
+
 
 # Module 3:
 
@@ -110,21 +113,18 @@ Example code for this module:
 echo "Enter filename"
 read filename
 
-if [ -e "$filename" ]
+if [ -f "$filename" ]
 then
     echo "$filename exists in the directory"
     cat "$filename"
 else
-    cat > "$filename"
+    touch "$filename"
     echo "File created"
 fi                                  
 ```
 
 This code is related to the conditional statements we learned about in this module. 
-It first displays the prompt “Enter filename” asking for the user's input. 
-Once the user has typed a name of a file, the program then checks if a file with that name exists. 
-It then either notifies the user that a file with that name exists and displays the file's content, 
-or it creates a file with that name if it can’t find the file.
+It creates an empty file if the specified file does not exists
 
 
 # Module 4:
@@ -179,3 +179,10 @@ Some modes of git reset:
 git reflog
 git reset SHA_for_return
 ```
+
+
+<h2 style="text-align:center;">Thank you for reading!</h2>
+
+<p style="text-align: center;">
+    <img src="assets/images/smiling_cat.jpg" alt="A smiling cat">
+</p>
