@@ -43,6 +43,7 @@ Here are some useful commands from this module:
 ls -F example_dir 
 ```
 
+This code is related to navigating directories.
 Instead of listing the current directory’s contents, 
 ls combined with the option -F lists the contents of a directory located inside the current working directory.
 It uses symbols to indicate file types, such as / for a directory.
@@ -73,13 +74,16 @@ For me, the most useful skill I gained from this module was learning piping.
 This allows you to chain commands together so that data can be transferred between them continuously
 rather than having to pass it through temporary files.
 We also learned to use regex and the sed command to find and replace patterns in a text file.
- 
+This module's videos were on how to create frequency lists, word n-grams lists, 
+and how to change a text into sentence-per-line format
 
 **Example code for this module:**  
 ``` 
 grep -E '\bcat[a-zA-Z]*\b' example.txt | wc -l  
 ```
 
+This is a combination of multiple topics from this week. 
+The command includes piping, regex and pattern finding.
 This command looks for all matching lines starting with “cat” and
 counts those lines. 
 Instead of having to specify every variation of a word separately,
@@ -184,6 +188,12 @@ Some modes of git reset:
 git reflog
 git reset SHA_for_return
 ```
+
+For the final project, we learned the basics of making a website. 
+This required using Git, GitHub, and Jekyll. 
+We learned how to set up Ruby and how to clone and fork a template repository.
+I’ve always wanted to learn how to make a website, but it seemed too difficult to learn.
+The repository templates make website design more accessible to beginners.
 
 
 <h2 style="text-align:center;">Thank you for reading!</h2>
