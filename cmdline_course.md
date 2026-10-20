@@ -10,7 +10,7 @@ basic commands for processing text data, using regular expressions and script wr
 Participants will get a brief introduction to Python for the purpose of learning how to launch a virtual environment 
 and how to use pip to install packages.
 Additionally, the course provides valuable insight into the usefulness of remote servers and version control tools like Git.  
-The course consists mostly of independent work, but there were also in-person support sessions every other week.
+
 
 
 # Module 1:
@@ -18,12 +18,12 @@ The course consists mostly of independent work, but there were also in-person su
 The first thing we did was install a command-line environment. Then we started working on some basic commands. 
 Additionally, we learned how to handle and navigate files and directories. 
 For example, we learned how to copy, move and remove directories and files. 
-We also learned input/output redirection as well as how to check and change permissions for a file or a directory.
+Later, we learned input/output redirection as well as how to check and change permissions for a file or a directory.
 
 Most of the week’s concepts were easy to grasp, but I struggled a bit with understanding permissions. 
 The command for finding the permissions for a specific was simple, 
 but it took me a long time to understand what the symbolic notations actually meant. 
-Another thing I found challenging was remembering how different options affected commands.
+Another thing I found challenging was remembering how different options affect commands.
 
 Here are some useful commands from this module:
 
@@ -64,13 +64,16 @@ These operations include:
 	* _sort_
 * Removing duplicate lines from a sorted file
 	* _uniq_
-*  Searching text files for certain patterns
+* Searching text files for certain patterns
 	* _grep_
+* Finding and replacing patterns
+	* _sed_
 
-One of the most useful things we learned was piping commands. 
+For me, the most useful skill I gained from this module was learning piping.
 This allows you to chain commands together so that data can be transferred between them continuously
 rather than having to pass it through temporary files.
-We also learned to use regex to find and replace patterns in a text file.
+We also learned to use regex and the sed command to find and replace patterns in a text file.
+ 
 
 **Example code for this module:**  
 ``` 
@@ -82,6 +85,9 @@ counts those lines.
 Instead of having to specify every variation of a word separately,
 you can find multiple variations by using regex with grep -E.
 
+I struggled with this module the most since this module had the most material to go through. 
+I feel like I would have internalized all the information better if we had practice exercises in between sections. 
+
 
 # Module 3:
 
@@ -92,7 +98,7 @@ To gain a deeper understanding of scripting, we combined the commands we’ve le
 Instead of doing the time-consuming task of running commands one by one in the terminal, 
 a script allows you to execute them in a single step. 
 We learned how to set environmental variables temporarily and permanently, as well as how to change the values of existing variables.
-We also learned about command substitution, which allows us to take the output and save it as the value of a variable.
+In addition to that, we learned about command substitution, which allows us to take the output and save it as the value of a variable.
 
 From this module, I gained a deeper understanding of conditional statements and variables. 
 I had some previous knowledge about them from an introductory course to programming, 
@@ -101,7 +107,6 @@ but the structure used in scripts is very different from what I’ve previously 
 Configuration files were a completely new subject to me. 
 I found the information about changing your prompt symbol the most interesting, 
 since the information displayed there can increase readability. 
-Learning bash prompt customization is also a great way to get a better understanding of how the shell works. 
 I became more familiar with Python by learning to create virtual environments and install packages through pip.
 
 
