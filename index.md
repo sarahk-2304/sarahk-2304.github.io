@@ -47,6 +47,3 @@ My email address is sarah.kepot@helsinki.fi.
 The purpose of this project was to learn how to use git with GitHub. 
 I learned to use GitHub, clone a repository, revert to a previous commit version, add files to my local repository, commit changes, and push the changes to my global repository on GitHub
 
-## Misc. 
-
-[Gotta Love Cheese](https://en.wikipedia.org/wiki/Cheese) 
