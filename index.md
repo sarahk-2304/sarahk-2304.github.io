@@ -12,12 +12,15 @@ I study linguistics at the University of Helsinki, and this is my 3rd year.
 I hope to continue my studies in the Linguistic Diversity and Digital Humanities master’s programme. 
 I enjoy going to the gym and playing video games. 
 
+
 ## Find me on
 
 [LinkedIn](www.linkedin.com/in/sarah-kepot-a1ab76185), [GitHub](https://github.com/sarahk-2304/sarahk-2304.github.io.git), [My CV](https://www.overleaf.com/project/6acf29b431b0b866568c83d8/share#61934e721fdda81943d2a8a5130dceb52e249826671c7d9a)
+
 ## Contact
 
 My email address is sarah.kepot@helsinki.fi. 
+
 
 ## Courses I've Taken
 
@@ -38,6 +41,7 @@ My email address is sarah.kepot@helsinki.fi.
 [BSCS1001: Introduction to Programming](https://studies.helsinki.fi/kurssit/opintojakso/otm-d2bcb952-2c48-4420-9901-069d822d253e/BSCS1001), fall 2026  
 [ENG-502 Tekstin käsittely Pythonilla](https://studies.helsinki.fi/kurssit/toteutus/otm-ab07d3c3-ce29-4902-85cf-9a1aa9c62f78), fall 2026  
 [Command Line Tools for Linguists (KIK-LG221)](https://studies.helsinki.fi/courses/course-unit/otm-92ee484e-456b-409f-a397-d9d2b6e40a2f), fall 2026  
+
 
 ## Projects
 
