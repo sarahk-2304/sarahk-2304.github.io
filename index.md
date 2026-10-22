@@ -15,7 +15,7 @@ I enjoy going to the gym and playing video games.
 
 ## Find me on
 
-[LinkedIn](www.linkedin.com/in/sarah-kepot-a1ab76185), [GitHub](https://github.com/sarahk-2304/sarahk-2304.github.io.git), [My CV](https://www.overleaf.com/project/6acf29b431b0b866568c83d8/share#61934e721fdda81943d2a8a5130dceb52e249826671c7d9a)
+[LinkedIn](https://www.linkedin.com/in/sarah-kepot/), [GitHub](https://github.com/sarahk-2304/sarahk-2304.github.io.git), [My CV](https://www.overleaf.com/project/6acf29b431b0b866568c83d8/share#61934e721fdda81943d2a8a5130dceb52e249826671c7d9a)
 
 ## Contact
 
